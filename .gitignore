@@ -1,0 +1,28 @@
+# Proteção de chaves e dados sensíveis
+.env
+*.env
+secrets.json
+config.json
+
+# Arquivos de logs
+*.log
+bot.log
+reversao_bot.log
+historico_sinais.log
+
+# Ambiente Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+ENV/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Sistema
+Thumbs.db
