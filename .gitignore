@@ -1,28 +1,30 @@
-# Proteção de chaves e dados sensíveis
+# Arquivos sensíveis - NUNCA COMMITAR!
 .env
 *.env
 secrets.json
 config.json
+*.key
+*.pem
 
-# Arquivos de logs
+# Logs
 *.log
+logs/
 bot.log
 reversao_bot.log
 historico_sinais.log
 
-# Ambiente Python
+# Python
 __pycache__/
 *.pyc
 venv/
 .venv/
 env/
-ENV/
+*.egg-info/
+dist/
+build/
 
-# IDE/Editor
+# IDE
 .vscode/
 .idea/
 *.swp
 .DS_Store
-
-# Sistema
-Thumbs.db
